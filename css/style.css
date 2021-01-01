@@ -5,13 +5,39 @@ body, html {
   line-height: 1.8;
 }
 
+#myCarousel { margin-top: 0px;
+
+}
+
+#myCarousel .item { min-height: 800px;
+
+}
+
 /* Full height image header */
-.bgimg-1 {
+#slide1 {
+  background-image: url("../images/backgroundimage.jpg");
   background-position: center;
   background-size: cover;
-  /* background-image: url("/w3images/mac.jpg"); */
-  background-image: url("../images/backgroundimage.jpg");
-  min-height: 100%;
+  /* min-height: : 100%; */
+}
+
+#slide2 {
+  background-image: url("../images/backgroundimage2.jpg");
+  background-position: center;
+  background-size: cover;
+  /* min-height: : 100%; */
+}
+
+#slide3 { background-image: url("../images/backgroundimage3.jpeg");
+  background-position: center;
+  background-size: cover;
+  /* min-height: : 100%; */
+}
+
+#slide4 { background-image: url("../images/backgroundimage4.jpg");
+  background-position: center;
+  background-size: cover;
+  /* min-height: : 100%; */
 }
 
 .w3-bar .w3-button {
