@@ -40,6 +40,11 @@ body, html {
   /* min-height: : 100%; */
 }
 
+.carousel-caption {
+  font-size: 28px;
+  color: black;
+}
+
 .w3-bar .w3-button {
   padding: 16px;
 }
